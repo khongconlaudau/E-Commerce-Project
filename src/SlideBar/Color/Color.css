@@ -1,0 +1,4 @@
+/* If you want to target the entire label or wrapper */
+#all3 + .checkmark{
+  background: linear-gradient(to top, skyblue, pink);
+}

@@ -1,0 +1,47 @@
+.side-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.sidebar-label-container {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: small;
+  font-weight: medium;
+}
+
+.radio {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.sidebar-label-container .checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height:15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.sidebar-label-container:hover .checkmark{
+    background-color: #ccc;
+}
+
+.sidebar-label-container .radio:checked ~.checkmark{
+    background-color:  #2196f3;
+}

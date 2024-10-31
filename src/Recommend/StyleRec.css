@@ -1,0 +1,25 @@
+.re-container{
+    margin-left: 16rem;
+    margin-top: 1rem;
+}
+
+.recommend{
+    font-size: large;
+    margin-bottom: 1.5rem;
+}
+
+.btn{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 5px lightblue ;
+    transition: all 0.8s ease-in;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to top, skyblue, pink);
+}
+
